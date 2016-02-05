@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var generate = require('project-name-generator');
+var generate = require('../src/generator.js');
 
 main(process.argv.slice(2));
 
